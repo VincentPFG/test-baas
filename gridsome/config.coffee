@@ -18,6 +18,16 @@ module.exports =
 			path: 'blog/**/*.md'
 			typeName: 'Post'
 		'gridsome-plugin-netlify-cms'
+		# use: '@gridsome/source-wordpress'
+		# options:
+		# 	baseURL: 'https://public-api.wordpress.com'
+		# 	apiBase: 'wp/v2/sites/monbacasable791285989.wordpress.com'
+		# 	# typeName: 'WordPress'
+		# 	customEndpoints: [
+		# 		typeName: 'WordPress'
+		# 		route: '/posts'
+		# 		normalize: yes
+		# 	]
 	]
 
 	transformers:
