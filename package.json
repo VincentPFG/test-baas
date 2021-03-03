@@ -40,6 +40,6 @@
   },
   "devDependencies": {
     "gridsome-plugin-pug": "0.0.3",
-    "pug": "^2.0.4"
+    "pug": "^3.0.1"
   }
 }
